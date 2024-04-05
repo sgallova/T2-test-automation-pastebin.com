@@ -13,6 +13,10 @@ class ResultComponent {
   get postView(){
     return $("div.post-view")
   }
+
+  get syntaxBtn(){
+    return $('a[href="/archive/bash"]');
+  }
 }
 
 module.exports= ResultComponent;

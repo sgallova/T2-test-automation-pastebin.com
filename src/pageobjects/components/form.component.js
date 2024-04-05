@@ -8,9 +8,14 @@ class FormComponents {
     return $("input#postform-name");
   }
 
-  get combobox() {
+  get expirationCB() {
    return $("select#postform-expiration");
   }
+
+  get syntaxHighlight() {
+    return $("select#postform-format");
+   }
+
 
   get submitBtn() {
     return $('//button[text()="Create New Paste"]');
