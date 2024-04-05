@@ -1,0 +1,18 @@
+{
+  "name": "t1-test-automation-pastebin",
+  "version": "1.0.0",
+  "description": "Automate the following script using WebdriverIO, a unit test framework (Mocha) and the Page Object model:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run src/config/wdio.conf.js"
+  },
+  "author": "Sofia Gallo",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.35.1",
+    "@wdio/local-runner": "^8.35.1",
+    "@wdio/mocha-framework": "^8.35.0",
+    "@wdio/spec-reporter": "^8.32.4"
+  }
+}
